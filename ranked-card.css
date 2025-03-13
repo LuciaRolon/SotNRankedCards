@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: transparent;
+}
+
+.elo-card {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    height: 170px;
+    width: 340px;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.white {
+    background: white;
+}
+
+.rank {
+    color: green;
+}
+
+.player-name {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.preset-name {
+    font-size: 28px;
+    color: gray;
+}
+
+
+.elo {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.last-total {
+    font-size: 28px;
+    color: dimgray;
+}
+
+.positive-total {
+    color: green;
+    font-weight: bold;
+}
+
+.negative-total {
+    color: darkred;
+}
